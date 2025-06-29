@@ -53,6 +53,34 @@
             margin: 0.5rem 0 0;
         }
 
+        .testimonials {
+            background-color: #e3f2fd;
+            padding: 2rem;
+            border-radius: 12px;
+            margin: 2rem 0;
+            width: 80%;
+            max-width: 600px;
+        }
+
+        .testimonials h2 {
+            color: #1976d2;
+        }
+
+        .testimonial {
+            background-color: white;
+            padding: 1rem;
+            margin: 1rem 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+        .testimonial span {
+            display: block;
+            margin-top: 0.5rem;
+            color: #555;
+            font-weight: 500;
+        }
+
         .contact-form {
             background-color: white;
             padding: 2rem;
@@ -107,9 +135,30 @@
         </div>
         <div class="product">
             <h3>Product 3</h3>
-            <p>Price: ₹140</p>
+            <p>Price: ₹150</p>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <h2>What Our Customers Say</h2>
+        <div class="testimonial">
+            <p>🗣️ “Amazing quality and fast delivery!”</p>
+            <span>- Ayesha</span>
+        </div>
+        <div class="testimonial">
+            <p>🗣️ “I love this shop, affordable and reliable.”</p>
+            <span>- Rahul</span>
         </div>
     </section>
 
     <section class="contact-form">
-
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Message" required></textarea>
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+</body>
+</html>
